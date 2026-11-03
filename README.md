@@ -408,6 +408,13 @@ For a portfolio presentation, add screenshots or saved evidence of:
 
 Record counts, revenue totals, and email delivery outcomes should be taken from actual execution results rather than assumed.
 
+## Pipeline Execution Results
+
+![Airflow First Task](docs/screenshots/airflow-first-task-success.png)
+
+![Airflow Second Task](docs/screenshots/airflow-second-task-success.png)
+
+
 ## Challenges and Troubleshooting
 
 ### 1. Docker Engine Instability

@@ -1,7 +1,36 @@
-*.env
-venv/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local backups
+local-backup/
+*.bak
+
+# Python
 __pycache__/
-config/
-logs/
-plugins/
-data/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Airflow generated files
+airflow/logs/
+airflow/plugins/__pycache__/
+airflow/dags/data/
+airflow/airflow.cfg
+airflow/airflow.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db

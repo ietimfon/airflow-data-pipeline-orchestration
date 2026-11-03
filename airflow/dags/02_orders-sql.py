@@ -24,7 +24,7 @@ with DAG(
     transform_orders = SQLExecuteQueryOperator(
                 task_id="transform_orders",
                 sql="sql/orders.sql",
-                conn_id="supabse_conn"
+                conn_id="orders_local_postgres"
             )
 
     notify_orders = PythonOperator(

@@ -410,8 +410,10 @@ Record counts, revenue totals, and email delivery outcomes should be taken from 
 
 ## Pipeline Execution Results
 
+### Airflow First Task
 ![Airflow First Task](docs/screenshots/airflow-first-task-success.PNG)
 
+### Airflow Second Task
 ![Airflow Second Task](docs/screenshots/airflow-second-task-success.PNG)
 
 
